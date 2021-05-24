@@ -20,6 +20,46 @@ export class App extends Component {
               artistName="cameronfoxly"
             />
 
+            <OctoCat
+              artLink="https://octodex.github.com//octoqueer/"
+              img="https://octodex.github.com//images/Octoqueer.png"
+              name=" Octoqueer"
+              number="# 149"
+              artistLink="https://github.com/cameronfoxly"
+              artistImg="https://github.com/cameronfoxly.png"
+              artistName="cameronfoxly"
+            />
+
+            <OctoCat
+              artLink="https://octodex.github.com//terracottocat/"
+              img="https://octodex.github.com//images/Terracottocat_Single.png"
+              name=" Terracottocat"
+              number="# 148"
+              artistLink="https://github.com/chubbmo"
+              artistImg="https://github.com/chubbmo.png"
+              artistName="chubbmo"
+            />
+
+            <OctoCat
+              artLink="https://octodex.github.com//octogatos/"
+              img="https://octodex.github.com//images/Octogatos.png"
+              name=" Octogatos"
+              number="# 147"
+              artistLink="https://github.com/cameronfoxly"
+              artistImg="https://github.com/cameronfoxly.png"
+              artistName="cameronfoxly"
+            />
+
+            <OctoCat
+              artLink="https://octodex.github.com//sentrytocat/"
+              img="https://octodex.github.com//images/Sentrytocat_octodex.jpg"
+              name=" Sentrytocat"
+              number="# 142"
+              artistLink="https://github.com/cameronmcefee"
+              artistImg="https://github.com/cameronmcefee.png"
+              artistName="cameronfoxly"
+            />
+
             {/* <OctoCat
               artLink=""
               img=""
@@ -29,122 +69,6 @@ export class App extends Component {
               artistImg=""
               artistName=""
             /> */}
-
-            <article>
-              <a href="https://octodex.github.com//octoqueer/">
-                <img
-                  src="https://octodex.github.com//images/Octoqueer.png"
-                  width="300"
-                  height="300"
-                  alt="Octoqueer"
-                />
-              </a>
-              <ul>
-                <li>
-                  # 149:
-                  <a href="https://octodex.github.com//octoqueer/">
-                    <strong>Octoqueer</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/cameronfoxly">
-                    <img
-                      src="https://github.com/cameronfoxly.png"
-                      width="24px"
-                      height="24px"
-                      alt="cameronfoxly"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
-
-            <article>
-              <a href="https://octodex.github.com//terracottocat/">
-                <img
-                  src="https://octodex.github.com//images/Terracottocat_Single.png"
-                  width="300"
-                  height="300"
-                  alt="Terracottocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #148:
-                  <a href="https://octodex.github.com//terracottocat/">
-                    <strong>Terracottocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/chubbmo">
-                    <img
-                      src="https://github.com/chubbmo.png"
-                      width="24px"
-                      height="24px"
-                      alt="chubbmo"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
-            <article>
-              <a href="https://octodex.github.com//octogatos/">
-                <img
-                  src="https://octodex.github.com//images/Octogatos.png"
-                  width="300"
-                  height="300"
-                  alt="Octogatos"
-                />
-              </a>
-              <ul>
-                <li>
-                  #147:
-                  <a href="https://octodex.github.com//octogatos/">
-                    <strong>Octogatos</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/cameronfoxly">
-                    <img
-                      src="https://github.com/cameronfoxly.png"
-                      width="24px"
-                      height="24px"
-                      alt="cameronfoxly"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
-
-            <article>
-              <a href="https://octodex.github.com//sentrytocat/">
-                <img
-                  src="https://octodex.github.com//images/Sentrytocat_octodex.jpg"
-                  width="300"
-                  height="300"
-                  alt="Sentrytocat"
-                />
-              </a>
-              <ul>
-                <li>
-                  #142:
-                  <a href="https://octodex.github.com//sentrytocat/">
-                    <strong>Sentrytocat</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/cameronmcefee">
-                    <img
-                      src="https://github.com/cameronmcefee.png"
-                      width="24px"
-                      height="24px"
-                      alt="cameronfoxly"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
-
             <article>
               <a href="https://octodex.github.com//boxertocat/">
                 <img
@@ -173,7 +97,15 @@ export class App extends Component {
                 </li>
               </ul>
             </article>
-
+            {/* <OctoCat
+              artLink=""
+              img=""
+              name=" "
+              number="# "
+              artistLink=""
+              artistImg=""
+              artistName=""
+            /> */}
             <article>
               <a href="https://octodex.github.com//suftocat/">
                 <img
@@ -202,7 +134,15 @@ export class App extends Component {
                 </li>
               </ul>
             </article>
-
+            {/* <OctoCat
+              artLink=""
+              img=""
+              name=" "
+              number="# "
+              artistLink=""
+              artistImg=""
+              artistName=""
+            /> */}
             <article>
               <a href="https://octodex.github.com//scubatocat/">
                 <img
@@ -231,7 +171,15 @@ export class App extends Component {
                 </li>
               </ul>
             </article>
-
+            {/* <OctoCat
+              artLink=""
+              img=""
+              name=" "
+              number="# "
+              artistLink=""
+              artistImg=""
+              artistName=""
+            /> */}
             <article>
               <a href="https://octodex.github.com//dinotocat/">
                 <img
@@ -260,7 +208,15 @@ export class App extends Component {
                 </li>
               </ul>
             </article>
-
+            {/* <OctoCat
+              artLink=""
+              img=""
+              name=" "
+              number="# "
+              artistLink=""
+              artistImg=""
+              artistName=""
+            /> */}
             <article>
               <a href="https://octodex.github.com//Robotocat/">
                 <img
@@ -289,7 +245,15 @@ export class App extends Component {
                 </li>
               </ul>
             </article>
-
+            {/* <OctoCat
+              artLink=""
+              img=""
+              name=" "
+              number="# "
+              artistLink=""
+              artistImg=""
+              artistName=""
+            /> */}
             <article>
               <a href="https://octodex.github.com//spidertocat/">
                 <img
@@ -318,7 +282,15 @@ export class App extends Component {
                 </li>
               </ul>
             </article>
-
+            {/* <OctoCat
+              artLink=""
+              img=""
+              name=" "
+              number="# "
+              artistLink=""
+              artistImg=""
+              artistName=""
+            /> */}
             <article>
               <a href="https://octodex.github.com//megacat-2/">
                 <img
