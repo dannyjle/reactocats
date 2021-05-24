@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { CatHeader } from './components/CatHeader'
+import OctoCat from './components/OctoCat'
 
 export class App extends Component {
   render() {
@@ -9,34 +10,25 @@ export class App extends Component {
           <CatHeader />
 
           <section>
-            <article>
-              <a href="https://octodex.github.com//octoasians/">
-                <img
-                  src="https://octodex.github.com//images/OctoAsians_dex_Full.png"
-                  width="300"
-                  height="300"
-                  alt="OctoAsians"
-                />
-              </a>
-              <ul>
-                <li>
-                  # 150:
-                  <a href="https://octodex.github.com//octoasians/">
-                    <strong>OctoAsians</strong>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/cameronfoxly">
-                    <img
-                      src="https://github.com/cameronfoxly.png"
-                      width="24px"
-                      height="24px"
-                      alt="cameronfoxly"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </article>
+            <OctoCat
+              artLink="https://octodex.github.com//octoasians/"
+              img="https://octodex.github.com//images/OctoAsians_dex_Full.png"
+              name=" OctoAsians"
+              number="# 150"
+              artistLink="https://github.com/cameronfoxly"
+              artistImg="https://github.com/cameronfoxly.png"
+              artistName="cameronfoxly"
+            />
+
+            {/* <OctoCat
+              artLink=""
+              img=""
+              name=" "
+              number="# "
+              artistLink=""
+              artistImg=""
+              artistName=""
+            /> */}
 
             <article>
               <a href="https://octodex.github.com//octoqueer/">
