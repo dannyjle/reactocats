@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { CatHeader } from './components/CatHeader'
 import OctoCat from './components/OctoCat'
+import CatFooter from './components/CatFooter'
 
 export class App extends Component {
   render() {
@@ -130,12 +131,8 @@ export class App extends Component {
               artistName="jeejkang"
             />
           </section>
+          <CatFooter />
         </main>
-        <footer>
-          <div>
-            <p>© 2013 – 2020 GitHub, Inc. All rights reserved.</p>
-          </div>
-        </footer>
       </div>
     )
   }
